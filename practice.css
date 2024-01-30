@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: dodgerblue;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+.menu{
+    position: relative;
+    width: 280px;
+    height: 280px;
+    border-radius: 49% 42% 55%;
+    box-shadow: inset 12px 25px 18px rgba(0, 0, 0, 0.2),
+                 inset -5px -15px 13px rgba(255, 255, 255, 0.5)      
+}
+.menu::before{
+    content: "";
+    position: absolute;
+    top: 60px;
+    left: 50px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    background: rgba(255, 255, 255, 0.5);
+}
